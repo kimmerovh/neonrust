@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Ubuntu:wght@300;400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  html,body {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .rain-container {
+    position: relative;
+    background-image: url(phoin.jpg);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  i {
+    position: absolute;
+    height: 120px;
+    border-radius: 0 0 999px 999px;
+    animation: animate 5s linear infinite;
+  }
+
+  .NeonRust{
+    font-family: 'Monoton';
+    color: rgb(246, 246, 246);
+    text-shadow: 5px 7px 9px rgb(78, 211, 209);
+    text-align: center;
+    font-size: 100px;
+    font-weight: 10;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .NeonRust:hover{
+    text-shadow: rgb(0, 0, 0);
+    color: aqua;
+  }
+
+  /* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: url('your-background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background: rgba(51, 51, 51, 0.8); /* Полупрозрачный черный */
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ff3b2e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый */
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+button, a.button {
+    display: inline-block;
+    margin-top: 1rem; /* Добавлен отступ сверху */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button:hover, a.button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background: rgba(51, 51, 51, 0.8); /* Полупрозрачный черный */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+  
+  @keyframes animate {
+    0% {
+      transform: translateY(-120px);
+    }
+    100% {
+      transform: translateY(calc(100vh + 120px));
+    }
+  }
